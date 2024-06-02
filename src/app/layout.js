@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   useEffect(() => {
 
     const script = document.createElement('script');
-    script.src = `https://www.googletagmanager.com/gtm.js?id=GTM-MRPG83NT`;
+    script.src = `https://www.googletagmanager.com/gtm.js?id=GTM-NTN5LGLK`;
     script.async = true;
     document.body.appendChild(script);
 
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         <noscript
           dangerouslySetInnerHTML={{
             __html: `
-              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRPG83NT"
+              <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTN5LGLK"
               height="0" width="0" style="display:none;visibility:hidden"></iframe>
             `,
           }}
